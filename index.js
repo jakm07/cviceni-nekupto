@@ -18,3 +18,6 @@ const product3 = {
 
 let karta1 = document.querySelector("#product1")
 karta1.classList.add("border-primary")
+
+let tlacitko = document.querySelector("#produkt2 button")
+tlacitko.classList.remove("btn-primary")
