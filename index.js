@@ -19,5 +19,9 @@ const product3 = {
 let karta1 = document.querySelector("#product1")
 karta1.classList.add("border-primary")
 
-let tlacitko = document.querySelector("#produkt2 button")
+let tlacitko = document.querySelector("#product2 button")
 tlacitko.classList.remove("btn-primary")
+
+//let posledniProdukt = document.querySelector("#produkt3 h2")
+//console.log(posledniProdukt)
+//posledniProdukt.classList.toggle(".text-center")
