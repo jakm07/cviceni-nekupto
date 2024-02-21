@@ -4,6 +4,13 @@ const product1 = {
   description: 'Vynikající pokud si často zapomínáte deštník a nechcete být nikdy překvapeni nečekanou přeháňkou.',
 };
 
+const product1HTML = `
+<img class="card-img-top" src="images/destniklobouk.jpg" alt="Card image cap">
+<div class="card-body">
+<h2 class="card-title">Deštníklobouk</h2>
+<p class="card-text">Vynikající pokud si často zapomínáte deštník a nechcete být nikdy překvapeni nečekanou přeháňkou.</p>
+`
+
 const product2 = {
   image: 'images/slepickabelka.jpg',
   name: 'Slepičkabelka',
