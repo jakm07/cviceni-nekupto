@@ -22,6 +22,5 @@ karta1.classList.add("border-primary")
 let tlacitko = document.querySelector("#product2 button")
 tlacitko.classList.remove("btn-primary")
 
-//let posledniProdukt = document.querySelector("#produkt3 h2")
-//console.log(posledniProdukt)
-//posledniProdukt.classList.toggle(".text-center")
+let posledniProdukt = document.querySelector("#product3 .card-title")
+posledniProdukt.classList.toggle("text-center")
